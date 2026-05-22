@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -15,7 +17,6 @@
       width: 300px;
       margin: 50px auto;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
     label {
       display: block;
@@ -43,10 +44,12 @@
   </style>
 </head>
 <body>
-  <form>
+  <form action="proses.php" method="post">
     <label for="nama">Nama:</label>
     <input type="text" id="nama" name="nama" placeholder="Masukkan nama">
     <input type="submit" value="Kirim">
   </form>
 </body>
 </html>
+<?php
+?>
